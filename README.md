@@ -69,7 +69,7 @@ python -m venv env
 . venv/Scripts/activate
 ```
 
-```bash
+```
 python -m pip install --upgrade pip
 ```
 
