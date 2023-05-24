@@ -56,12 +56,11 @@ class Follow(models.Model):
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
-        related_name='followings',
     )
     following = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
-        related_name='followers',
+        related_name='followers'
     )
 
     class Meta:
@@ -71,3 +70,4 @@ class Follow(models.Model):
                 name='unique_follow'
             )
         ]
+        default_related_name = 'followings'
