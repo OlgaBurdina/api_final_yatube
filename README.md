@@ -61,21 +61,21 @@ GET .../api/v1/groups/2/
 
 Cоздать и активировать виртуальное окружение:
 
-```text
+```bash
 python -m venv env
 ```
 
-```text
+```bash
 . venv/Scripts/activate
 ```
 
-```text
+```bash
 python -m pip install --upgrade pip
 ```
 
 Установить зависимости из файла requirements.txt:
 
-```text
+```bash
 pip install -r requirements.txt
 ```
 
