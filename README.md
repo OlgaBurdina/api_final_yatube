@@ -42,9 +42,12 @@ POST .../api/v1/posts/
 ```
 
 POST .../api/v1/posts/14/comments/
+
+```js
   {
     "text": "тест тест"
   }
+```
 
 GET .../api/v1/groups/2/
 
